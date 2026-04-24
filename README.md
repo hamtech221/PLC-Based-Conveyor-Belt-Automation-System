@@ -41,6 +41,6 @@ Programming Language: Ladder Logic (LAD)
 • Sorting & Counting Systems  
 
 ## 📂 Repository Contents
-• PLC Program / Logic (.mwp file) 
-• System Design Logic
-• Demonstration Video  
+- PLC Program / Logic (.mwp file) 
+- System Design Logic
+- Demonstration Video  
