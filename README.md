@@ -13,14 +13,15 @@ The system uses sensor inputs to detect objects on the conveyor belt. Based on p
 • Modular and scalable design for industrial applications  
 
 
-## ⚙️ Working:
-  The video below will show the demo. Since there are push buttons and LEDs, we make some assumptions. Those assumptions are:
-  
-  • I0.0 means that sensor detects an object on the belt is placed so Q0.2 indicates the motor is running. 
-  • I0.1 indicates that sensor detects no object is on the belt, so the motor stops running.
-  • I0.7 is just used as a reset for counters.
-  • A safety feature was added that is if the both sensors show incorrect reading, the motor is in the "suspended" state         meaning that it suddenly stops running.
-  • Interlocking logic was also added in the program as another safety feature.
+## ⚙️ Working
+
+The video below demonstrates the system operation. Since the setup uses push buttons and LEDs, the following assumptions are made:
+
+- **I0.0** → Sensor detects an object on the belt → **Q0.2 (motor ON)**
+- **I0.1** → Sensor detects no object → **Motor OFF**
+- **I0.7** → Reset signal for counters
+- **Safety Feature:** If both sensors give an invalid/contradictory reading, the motor enters a *suspended state* (immediate stop)
+- **Interlocking Logic:** Implemented to prevent unsafe or conflicting operations
 
   
 ## ⚙️ Technologies Used:
