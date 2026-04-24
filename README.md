@@ -15,6 +15,7 @@ The system uses sensor inputs to detect objects on the conveyor belt. Based on p
 
 ## ⚙️ Working:
   The video below will show the demo. Since there are push buttons and LEDs, we make some assumptions. Those assumptions are:
+  
   • I0.0 means that sensor detects an object on the belt is placed so Q0.2 indicates the motor is running. 
   • I0.1 indicates that sensor detects no object is on the belt, so the motor stops running.
   • I0.7 is just used as a reset for counters.
